@@ -24,13 +24,12 @@
         "url": "https://github.com/BastiTee/d3-plugin-boilerplate.git"
     },
     "scripts": {
-        "pretest": "rm -rf build && mkdir build && rollup --banner \"$(preamble)\" -f umd -g d3-path:d3 -n d3 -o build/d3-plugin-boilerplate.js -- index.js",
+        "pretest": "rm -rf build && mkdir build && rollup --banner \"$(preamble)\" -f umd -g d3:d3 -n d3 -o build/d3-plugin-boilerplate.js -- index.js",
         "test": "tape 'test/**/*-test.js' && eslint index.js src",
-        "prepublish": "npm run test && uglifyjs --preamble \"$(preamble)\" build/d3-plugin-boilerplate.js -c -m -o build/d3-plugin-boilerplate.min.js",
-        "postpublish": "git push && git push --tags && cd ../d3.github.com && git pull && cp ../d3-plugin-boilerplate/build/d3-plugin-boilerplate.js d3-plugin-boilerplate.v1.js && cp ../d3-plugin-boilerplate/build/d3-plugin-boilerplate.min.js d3-plugin-boilerplate.v1.min.js && git add d3-plugin-boilerplate.v1.js d3-plugin-boilerplate.v1.min.js && git commit -m \"d3-plugin-boilerplate ${npm_package_version}\" && git push && cd - && zip -j build/d3-plugin-boilerplate.zip -- LICENSE README.md build/d3-plugin-boilerplate.js build/d3-plugin-boilerplate.min.js"
+        "prepublish": "npm run test && uglifyjs --preamble \"$(preamble)\" build/d3-plugin-boilerplate.js -c -m -o build/d3-plugin-boilerplate.min.js"
     },
     "dependencies": {
-        "d3-path": "1"
+        "d3": "4"
     },
     "devDependencies": {
         "eslint": "3",

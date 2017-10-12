@@ -1,1 +1,1 @@
-export {default as component} from "./src/component";
+export {default as plugin} from "./src/index";

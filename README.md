@@ -1,5 +1,6 @@
 # d3-plugin-boilerplate
-<img align="right" src="img/icon.png" alt="alt text" width="90" height="90">
+
+![alt text](img/icon.png)
 
 > A ready-to-dine boilerplate for d3-plugins
 
@@ -17,8 +18,10 @@
 ## Todos
 
 - [x] Select a license
-- [ ] Generalize package.json
+- [x] Generalize package.json
+- [x] Include some library for demonstration
 - [ ] Document parts of repository
+- [ ] Reestablish a postpublish npm script
 
 ## License
 
