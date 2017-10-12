@@ -1,5 +1,5 @@
-<img align="right" src="img/icon.png" alt="alt text" width="90" height="90">
 # d3-plugin-boilerplate
+<img align="right" src="img/icon.png" alt="alt text" width="90" height="90">
 > A ready-to-dine boilerplate for d3-plugins
 
 ## Content
