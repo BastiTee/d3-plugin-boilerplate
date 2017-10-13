@@ -7,8 +7,8 @@
 This ready-to-dine boilerplate for d3-plug-ins is designed, so you'll be able to immediately start working on your plug-in's core implementation. You only require a fork! The boilerplate targets D3v4 and applies the best practices from:
 
 - [Mike Bostock](https://twitter.com/@mbostock) – [Towards Reusable Charts](https://bost.ocks.org/mike/chart/)
-- [Rob Moore](https://twitter.com/@robmoo_re) – [Towards updatable D3.js Charts](https://www.toptal.com/d3-js/towards-reusable-d3-js-charts)
 - [Mike Bostock's d3-shape source code](https://github.com/d3/d3-shape)
+- [Rob Moore](https://twitter.com/@robmoo_re) – [Towards updatable D3.js Charts](https://www.toptal.com/d3-js/towards-reusable-d3-js-charts)
 
 ## Content
 
