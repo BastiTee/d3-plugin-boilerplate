@@ -12,7 +12,7 @@ This ready-to-dine boilerplate for d3-plug-ins is designed, so you'll be able to
 
 ## Content
 
-The plug-in implemented in this boilerplate doesn't do much obviously. It basically creates a rectangle per dataset in [`example/data.csv`] and the given width and height.
+The plug-in implemented in this boilerplate doesn't do much obviously. It basically creates a rectangle per dataset in [`example/data.csv`](example/data.csv) and the given width and height.
 
 - [`package.json`](package.json) – Plug-in definition for node package manager (npm)
 - [`index.js`](index.js) – Your plug-in's export manifest
