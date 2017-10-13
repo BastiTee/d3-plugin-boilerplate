@@ -12,6 +12,8 @@ This ready-to-dine boilerplate for d3-plug-ins is designed, so you'll be able to
 
 ## Content
 
+The plug-in implemented in this boilerplate doesn't do much obviously. It basically creates a rectangle per dataset in [`example/data.csv`] and the given width and height.
+
 - [`package.json`](package.json) – Plug-in definition for node package manager (npm)
 - [`index.js`](index.js) – Your plug-in's export manifest
 - [`src/index.js`](src/index.js) – Your plug-in implementation requiring d3v4
@@ -20,7 +22,7 @@ This ready-to-dine boilerplate for d3-plug-ins is designed, so you'll be able to
 - [`example/data.csv`](example/data.csv) – Some sample data
 - [`img/`](img/) – A resource folder ignored during all npm/build processes
 
-See individual files for more documentation.
+See individual files for more documentation. After you've built the plug-in with `npm install` or `npm run prepublish` you'll find the shippable artifacts inside the `build/` folder.
 
 ## Scripts
 
