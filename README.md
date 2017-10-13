@@ -12,11 +12,10 @@ This ready-to-dine boilerplate for d3-plug-ins is designed, so you'll be able to
 
 ## Getting started
 
-- [Fork this repository](https://github.com/BastiTee/d3-plugin-boilerplate#fork-destination-box)
-- Clone your fork
-- Change to the repositories folder
+- Fork this repository and clone your fork
+- Change to the repository folder
 - Run `npm install`
-- Start the example, e.g., by running `python -m SimpleHTTPServer` or `http-server` after `node install -g http-server`.
+- Start the example by running a standalone server like `python -m SimpleHTTPServer` or `http-server` (`node install -g http-server`)
 - Open browser at <http://localhost:8000/example/index.html>
 
 ## Content
