@@ -12,11 +12,15 @@ This ready-to-dine boilerplate for d3-plug-ins is designed, so you'll be able to
 
 ## Content
 
-- `index.js` – Your plug-in's export manifest
-- `src/index.js` – Your plug-in implementation requiring d3v4
-- `test/main-test.js` – A test suite for your plug-in
-- `package.json` – plug-in definition for node package manager (npm)
-- `example/` – Simple HTML page demonstrating your plug-in
+- [`package.json`](package.json) – Plug-in definition for node package manager (npm)
+- [`index.js`](index.js) – Your plug-in's export manifest
+- [`src/index.js`](src/index.js) – Your plug-in implementation requiring d3v4
+- [`test/main-test.js`](test/main-test.js) – A test suite for your plug-in
+- [`example/index.html`](example/index.html) – Simple HTML page demonstrating your plug-in
+- [`example/data.csv`](example/data.csv) – Some sample data
+- [`img/`](img/) – A resource folder ignored during all npm/build processes
+
+See individual files for more documentation.
 
 ## Scripts
 
