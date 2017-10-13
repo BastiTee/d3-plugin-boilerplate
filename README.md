@@ -10,6 +10,15 @@ This ready-to-dine boilerplate for d3-plug-ins is designed, so you'll be able to
 - [Mike Bostock's d3-shape source code](https://github.com/d3/d3-shape)
 - [Rob Moore](https://twitter.com/@robmoo_re) – [Towards updatable D3.js Charts](https://www.toptal.com/d3-js/towards-reusable-d3-js-charts)
 
+## Getting started
+
+- [Fork this repository](https://github.com/BastiTee/d3-plugin-boilerplate#fork-destination-box)
+- Clone your fork
+- Change to the repositories folder
+- Run `npm install`
+- Start the example, e.g., by running `python -m SimpleHTTPServer` or `http-server` after `node install -g http-server`.
+- Open browser at <http://localhost:8000/example/index.html>
+
 ## Content
 
 The plug-in implemented in this boilerplate doesn't do much obviously. It basically creates a rectangle per dataset in [`example/data.csv`](example/data.csv) and the given width and height.
