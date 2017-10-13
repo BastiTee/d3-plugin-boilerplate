@@ -4,20 +4,40 @@
 
 ![alt text](img/icon.png)
 
-This ready-to-dine (you only need a fork!) boilerplate for d3-plugins is designed, so you'll be able to immediately start working on your plugin's core implementation. The boilerplate applies the best practices from:
+This ready-to-dine boilerplate for d3-plug-ins is designed, so you'll be able to immediately start working on your plug-in's core implementation. You only require a fork! The boilerplate targets D3v4 and applies the best practices from:
 
 - [Mike Bostock](https://twitter.com/@mbostock) – [Towards Reusable Charts](https://bost.ocks.org/mike/chart/)
 - [Rob Moore](https://twitter.com/@robmoo_re) – [Towards updatable D3.js Charts](https://www.toptal.com/d3-js/towards-reusable-d3-js-charts)
 - [Mike Bostock's d3-shape source code](https://github.com/d3/d3-shape)
 
-## Todos
+## Content
+
+- `index.js` – Your plug-in's export manifest
+- `src/index.js` – Your plug-in implementation requiring d3v4
+- `test/main-test.js` – A test suite for your plug-in
+- `package.json` – plug-in definition for node package manager (npm)
+- `example/` – Simple HTML page demonstrating your plug-in
+
+## Scripts
+
+Using `npm run` the following scripts are available:
+
+- `pretest` – Pre-testing script that bundles your plug-in into a single file to `build/` so you'll be able to test using `example/`
+- `test` – Runs your test suite against the plug-in implementation
+- `prepublish` – Bundles your plug-in into a single file and its minified version to `build/`
+
+Additionally the following scripts are available:
+
+- `run-example-linux.sh` – Starts a simple HTTP server so you'll be able to check out the example implementation on <http://localhost:8000/example/index.html>
+
+## To-Do's
 
 - [x] Select a license
 - [x] Generalize package.json
 - [x] Include some library for demonstration
-- [ ] Document content of repository
-- [ ] Document the pretest, prepublish, test scripts
-- [ ] Reestablish a postpublish npm script
+- [x] Document content of repository
+- [x] Document the pretest, prepublish, test scripts
+- [ ] Reestablish a post-publish npm script
 
 ## License
 
